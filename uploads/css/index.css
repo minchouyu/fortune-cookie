@@ -1,0 +1,204 @@
+body{
+    background-color: darkslategrey;
+}
+.contain{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.background-image{
+    display: flex;
+    justify-content: center;
+}
+.background-image img{
+    width: 80%;
+    height: 600px;
+}
+.window-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: left;
+}
+.window-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+}
+.window-right img{
+    width: 100%;
+    height: 600px;
+}
+.window-left img{
+    width: 100%;
+    height: 600px;
+}
+.flower{
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.flower img{
+    width: 70%;
+}
+.table{
+    position: absolute;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.table img{
+    
+    width: 85%;
+    height: 250px;
+}
+.light-left{
+    position: absolute;
+    top: 0;
+    left: 4%;
+    display: flex;
+    justify-content: left;
+}
+.light-right{
+    position: absolute;
+    top: 0;
+    right: 4%;
+    display: flex;
+    justify-content: center;
+}
+.light-right img{
+    width: 100%;
+    height: 500px;
+}
+.light-left img{
+    width: 100%;
+    height: 500px;
+}
+.cake-left{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    display: flex;
+    justify-content: left;
+}
+.cake-right{
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    display: flex;
+    justify-content: center;
+}
+.cake-right img{
+    width: 50%;
+}
+.cake-left img{
+    width: 50%;
+}
+.bowl{
+    position: absolute;
+    top: 65%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.bowl img{
+    width: 70%;
+}
+.crack{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.crack img{
+    display: none;
+    width: 50%;
+}
+.crack1{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.crack1 img{
+    display: none;
+    width: 50%;
+}
+.quote{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.quote img{
+    display: none;
+    width: 80%;
+}
+.tutor{
+    position: absolute;
+    top: 10%;
+    left: 10%; 
+}
+.tutor img{
+    width: 40%;
+}
+.tutor1{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.tutor1 img{
+    display: none;
+    width: 80%;
+}
+.cancle{
+    position: absolute;
+    right: 0;
+}
+.cancle img{
+    display: none;
+    width: 50%;
+}
+
+.quote-text{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.replay{
+    position: absolute;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+.replay img{
+    display: none;
+    width: 20%;
+}
